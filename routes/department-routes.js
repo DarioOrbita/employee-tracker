@@ -66,3 +66,5 @@ router.delete("/department/:id", (req, res) => {
     }
   });
 });
+
+module.exports = router;
