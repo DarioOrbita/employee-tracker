@@ -4,10 +4,10 @@ DROP TABLE IF EXISTS exployee;
 
 CREATE TABLE department(
     id INT PRIMARY KEY,
-    name VARCHAR(30)
+    department_name VARCHAR(30)
 );
 
-CREATE TABLE role(
+CREATE TABLE roles(
     id INT PRIMARY KEY,
     title VARCHAR(30),
     salary DECIMAL,
